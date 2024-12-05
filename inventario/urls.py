@@ -19,10 +19,12 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from inventory.views import CategoryViewSet, ItemViewSet
+from usuario.views import UserViewSet
 
 router = DefaultRouter()
 router.register(r'categories', CategoryViewSet)
 router.register(r'items', ItemViewSet)
+router.register(r'users', UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
