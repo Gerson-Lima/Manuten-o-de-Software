@@ -7,4 +7,3 @@ Categorias e Itens:
 
 - Categorias: Grupos que organizam os itens de maneira lógica (ex.: Eletrônicos, Móveis, Roupas).
 - Itens: Produtos específicos que pertencem a uma categoria e possuem atributos como nome, quantidade, preço, e descrição.
-Gerente e Funcionário:
